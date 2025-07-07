@@ -1,0 +1,27 @@
+{
+  "name": "playwright_cucumber_bdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cucumberWithTS": "cucumber-js src/features/*.feature --require-module ts-node/register --require src/step-definitions/**/**/*ts --require src/utils/cucumber-timeout.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marva27/Playwright_Cucumber_BDD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Marva27/Playwright_Cucumber_BDD/issues"
+  },
+  "homepage": "https://github.com/Marva27/Playwright_Cucumber_BDD#readme",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.3.0",
+    "@playwright/test": "^1.53.2",
+    "@types/node": "^24.0.10",
+    "ts-node": "^10.9.2"
+  }
+}
